@@ -158,6 +158,11 @@ body {
     display: inline-block;
     height: 12rem;
     margin: 2rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .members div{
     display: inline-block;
